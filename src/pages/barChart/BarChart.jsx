@@ -49,7 +49,7 @@ function BarChart() {
         };
 
         fetchData();
-    }, []);
+    }, [API_URL]);
 
     const { labels, values, error } = parseData(apiData);
 
